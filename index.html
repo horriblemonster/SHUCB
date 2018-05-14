@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上大创帮</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <style>
+            /* Make the image fully responsive */
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+    </style>
+</head>
+<body>
+    <!--导航栏-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">SHUCB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">下载</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">登陆</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                  </form>
+                </div>
+        </nav>
+    </div>
+    <!--轮播图-->
+    <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+                    <!-- 指示符 -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                   
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="http://static.runoob.com/images/mix/img_fjords_wide.jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg">
+                            </div>
+                    </div>
+                   
+                    <!-- 左右切换按钮 -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                   
+                  </div>
+    </div><br/><br/>
+    <!--介绍部分-->
+    <div class="container">
+        <!--主体-->
+        <div class="card">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">About US</h1>
+                <p class="text-center">
+                        创帮建立于2014年1月，主要是管理社区学院每年的创新项目团队，配合社区学院开展相关创新教育训练活动，提高学生对于创新的认识，
+                        培养学生们的独立组织开展项目的能力，让新生在社区学院提前了解一些专业知识，学习调研研究的基本技能。承担社区学院创新项目的
+                        管理，监督审核，跟踪，结项评定以及策划组织学院给予的临时活动等任务。提供给大一新生一个平台，给他们机会参与创新项目，培养
+                        学生自主研究，独立思考，整合资源，处理问题的能力，提高大家的创新创业意识，为专业学院的学习生活打下一个良好的基础。 自2016
+                        -2017年度起，创帮由帮主，顾问和三个小组构成，分别是事务组，宣传组和项目组。帮主和学院对接，管理创帮。每届从学年开始大概
+                        招新8-15人，项目结项后由帮主推荐以及创帮内部投票推举出新学年的管理者，上一届的帮主担任顾问，帮助处理相关事务。
+                </p>
+            </div>
+        </div>
+        </div>
+        </div><br/>
+        <!--部门介绍-->
+        <div class="card">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-md-3">
+                <h1 class="text-center">事务部</h1>
+                <p class="text-center">
+                        部长：李佳蕊 主要负责创新青年论坛的活动策划，社区学院创新项目的日常流程，还有收集和报销发票、财务的监管等活动。
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h1 class="text-center">宣传部</h1>
+                <p class="text-center">
+                        部长：吕林冲 主要负责创帮微信公众号的管理与推送，海报视频制作和一些具体的创新项目宣传工作
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h1 class="text-center">项目部</h1>
+                <p class="text-center">
+                        部长：李雨泽 主要负责一些具体项目的跟踪，能够独立完成新闻稿的撰写，合作完成某些日常活动的策划和记录。
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h1 class="text-center">技术部</h1>
+                <p class="text-center">
+                        部长：张晨辉 主要负责开发创新项目网站，技术宅欢迎加入~！
+                </p>
+            </div>
+        </div>
+        </div>
+        </div><br/>
+        <!--院长讲话-->
+        <div class="card">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+            <h1 class="text-center">校宣讲会上何院长讲话 “我”对创新项目的几点看法</h1>
+            <p class="text-center">
+                     利用课余时间，培养研究，探索的能力，养成善于思考的习惯。 现在这里有平台，有条件，比如指导老师，一些设备等 要好好把握机会哦<br/>
+                     社区学院大类学生难以抉择专业，可以通创新项目去了解各个专业 接触各专业学院的老师<br/>
+                     如何做好项目？先组个队，考虑下经费问题？应先学会去发现问题,去思考,思考些什么呢？ 你想做什么?你能做到什么?你要如何去做?这才是现在该做的<br/>
+                     社区学院开展创新项目的目的 重在过程，完成各个阶段的报告 付出努力，贵在坚持 摒弃功利心，利用机会来锻炼能力 提升自我，丰富经历
+            </p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div><br/>
+</body>
+</html>
